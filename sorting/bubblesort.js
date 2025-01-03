@@ -62,42 +62,65 @@
 // linkedlist.print()
 
 
-function bubbleSort(arr) {
-  let n = arr.length;
-  let swap = 0;
+// function bubbleSort(arr) {
+//   let n = arr.length;
+//   let swap = 0;
 
-  for (let i = 0; i < n - 1; i++) {
-    for (let j = 0; j < n - 1 - i; j++) {
-      if (arr[j] > arr[j + 1]) {
-        [arr[j],arr[j+1]]=[arr[j+1],arr[j]]
-        swap++;
-      }
-    }
-  }
-  console.log("total swaps:", swap);
-  return arr;
-}
+//   for (let i = 0; i < n - 1; i++) {
+//     for (let j = 0; j < n - 1 - i; j++) {
+//       if (arr[j] > arr[j + 1]) {
+//         [arr[j],arr[j+1]]=[arr[j+1],arr[j]]
+//         swap++;
+//       }
+//     }
+//   }
+//   console.log("total swaps:", swap);
+//   return arr;
+// }
 
-let arr = [45, 65, 89, 65, 87, 100];
-console.log("original array:", arr);
-console.log("sorted array:", bubbleSort(arr));
+// let arr = [45, 65, 89, 65, 87, 100];
+// console.log("original array:", arr);
+// console.log("sorted array:", bubbleSort(arr));
 
 
-function bubbleSortStrin(string){
-    let str=string.split("");
-    let n=str.length
-    let swap=0
-    for(let i=0;i<n;i++){
-        for(let j=0;j<n-1-i;j++){
-            if(str[j]>str[j+1]){
-                [str[j],str[j+1]]=[str[j+1],str[j]]
-                swap++
-            }
-        }
-    }
-    console.log("swapCount:",swap)
-return str.join("")
-}
-let string="esxdrcfvtgybhnj"
-console.log(string)
-console.log(bubbleSortStrin(string))
+// function bubbleSortStrin(string){
+//     let str=string.split("");
+//     let n=str.length
+//     let swap=0
+//     for(let i=0;i<n;i++){
+//         for(let j=0;j<n-1-i;j++){
+//             if(str[j]>str[j+1]){
+//                 [str[j],str[j+1]]=[str[j+1],str[j]]
+//                 swap++
+//             }
+//         }
+//     }
+//     console.log("swapCount:",swap)
+// return str.join("")
+// }
+// let string="esxdrcfvtgybhnj"
+// console.log(string)
+// console.log(bubbleSortStrin(string))
+
+
+// function bubbleSort(array){
+//   let arr=array.split("")
+//   let n=arr.length;
+//   let swap=0;
+//   for(let i=0;i<n-1;i++){
+//     for(let j=0;j<n-1-i;j++){
+//       if(arr[j]>arr[j+1]){
+//         [arr[j],arr[j+1]]=[arr[j+1],arr[j]]
+//         swap++
+//       }
+//     }
+//   }
+//   console.log("total swaps:",swap)
+//   return arr.join("")
+// }
+
+// let array="mohammed jisam"
+// console.log(bubbleSort(array))
+
+
+

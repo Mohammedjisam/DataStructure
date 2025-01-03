@@ -52,27 +52,27 @@ const reversewords=function(s){
 
 s="mohammed jisam"
 console.log(reversewords(s))
+  
 
+// const reverseStack = function(stack) {
+//     const tempStack = new Stack();
+//     while (stack.size() > 0) {
+//         tempStack.push(stack.pop());
+//     }
+//     return tempStack;
+// };
 
-const reverseStack = function(stack) {
-    const tempStack = new Stack();
-    while (stack.size() > 0) {
-        tempStack.push(stack.pop());
-    }
-    return tempStack;
-};
+// // Example usage
+// const stack = new Stack();
+// stack.push(1);
+// stack.push(2);
+// stack.push(3);
+// stack.push(4);
 
-// Example usage
-const stack = new Stack();
-stack.push(1);
-stack.push(2);
-stack.push(3);
-stack.push(4);
+// console.log("Original Stack:");
+// stack.print();
 
-console.log("Original Stack:");
-stack.print();
+// const reversedStack = reverseStack(stack);
 
-const reversedStack = reverseStack(stack);
-
-console.log("Reversed Stack:");
-reversedStack.print();
+// console.log("Reversed Stack:");
+// reversedStack.print();
